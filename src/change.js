@@ -13,7 +13,6 @@ if (Number.isNaN(amount)) {
     const QUARTER = 0.25 ;
     const DIME = 0.10 ;
     const NICKEL = 0.05 ;
-    const PENNY = 0.01 ;
     let amountOfQuarter = 0 ;
     let amountOfDime = 0 ;
     let amountOfNickel = 0 ;
@@ -27,8 +26,8 @@ if (Number.isNaN(amount)) {
       } while (amount >= NICKEL) {
         amount = amount - NICKEL ;
         amountOfNickel ++ ;
-      } while (amount >= PENNY) {
-        amount = amount - PENNY ;
+      } while (amount > 0) {
+        amount = amount - 0.01 ;
         amountOfPenny ++ ;
       } console.log("\n" + amountOfQuarter + " quarters, " + amountOfDime + " dimes, " + amountOfNickel + " nickels, and " + amountOfPenny + " pennies.");
 }
