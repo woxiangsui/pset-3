@@ -21,13 +21,13 @@ if (Number.isNaN(amount)) {
         amount = amount - QUARTER ;
         amountOfQuarter ++ ;
       } while (amount >= DIME) {
-        amount = amount - DIME ;
-        amountOfDime ++ ;
+          amount = amount - DIME ;
+          amountOfDime ++ ;
       } while (amount >= NICKEL) {
-        amount = amount - NICKEL ;
-        amountOfNickel ++ ;
+          amount = amount - NICKEL ;
+          amountOfNickel ++ ;
       } while (amount > 0) {
-        amount = amount - 0.01 ;
-        amountOfPenny ++ ;
+          amount = amount - 0.01 ;
+          amountOfPenny ++ ;
       } console.log("\n" + amountOfQuarter + " quarters, " + amountOfDime + " dimes, " + amountOfNickel + " nickels, and " + amountOfPenny + " pennies.");
 }
