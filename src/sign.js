@@ -1,6 +1,6 @@
 const readlineSync = require("readline-sync");
 
-const integer = readlineSync.question("\nEnter a number: ");
+const integer = Number(readlineSync.question("\nEnter a number: "));
 
 const MIN = Number.MIN_SAFE_INTEGER ;
 const MAX = Number.MAX_SAFE_INTEGER ;
