@@ -8,9 +8,9 @@ const MIN = Number.MIN_SAFE_INTEGER;
 const MAX = Number.MAX_SAFE_INTEGER;
 
 if (Number.isNaN(integer)) {
-  console.log("\nInvalid.")
+    console.log("\nInvalid.")
+} else if (integer == integer) {
+    console.log("\nEqual.")
+} else (integer != intger) {
+    if
 }
-else if (integer == integer) {
-  console.log("\nEqual.")
-}
-else ()
