@@ -12,7 +12,7 @@ if (Number.isNaN(integer)) {
 } else if (integer == integer2 && integer2 == integer3) {
     console.log("\nEqual.");
 } else if (integer < integer2 && integer2 < integer3) {
-    if (integer3 - integer2 == integer2 - integer) {
+    if (integer - integer2 == integer2 - integer3) {
       console.log("\nStrictly increasing.");
     } else {
       console.log("\nIncreasing.");
