@@ -6,9 +6,9 @@ const MAX = 0.99;
 let amount = Number(readlineSync.question("\nEnter a dollar amount: "));
 
 if (Number.isNaN(amount)) {
-    console.log("\nInvalid.")
+    console.log("\nInvalid.");
 } else if (amount < MIN || amount > MAX) {
-    console.log("\nInvalid.")
+    console.log("\nInvalid.");
 } else if (amount > 0) {
     const QUARTER = 0.25 ;
     const DIME = 0.10 ;
