@@ -2,30 +2,21 @@ const readlineSync = require("readline-sync");
 
 const month = readlineSync.question("\nEnter a month: ");
 
-if (month == "jan" || month == "January") {
+if (month == "jan" || month == "January" || month == "january" ||
+    month == "mar" || month == "March" || month == "march" ||
+    month == "may" || month == "May" ||
+    month == "jul" || month == "July" || month == "july" ||
+    month == "aug" || month == "August" || month == "august" ||
+    month == "oct" || month == "October" || month == "october" ||
+    month == "dec" || month == "December" || month == "december"){
     console.log("\n31 days.");
-} else if (month == "feb" || month == "February") {
+} else if (month == "feb" || month == "February" || month == "february") {
     console.log("\n28 or 29 days.");
-} else if (month == "mar" || month == "March") {
-    console.log("\n31 days.");
-} else if (month == "apr" || month == "April") {
+} else if (month == "apr" || month == "April" || month == "april" ||
+          month == "jun" || month == "June" || month == "june" ||
+          month == "sep" || month == "September" || month == "september" ||
+          month == "nov" || month == "November" || month == "november") {
     console.log("\n30 days.");
-} else if (month == "may" || month == "May") {
-    console.log("\n31 days.");
-} else if (month == "jun" || month == "June") {
-    console.log("\n30 days.");
-} else if (month == "jul" || month == "July") {
-    console.log("\n31 days.");
-} else if (month == "aug" || month == "August") {
-    console.log("\n31 days.");
-} else if (month == "sep" || month == "September") {
-    console.log("\n30 days.");
-} else if (month == "oct" || month == "October") {
-    console.log("\n31 days.");
-} else if (month == "nov" || month == "November") {
-    console.log("\n30 days.");
-} else if (month == "dec" || month == "December") {
-    console.log("\n31 days.");
 } else {
     console.log("\nInvalid.");
 }
