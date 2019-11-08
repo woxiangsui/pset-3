@@ -99,7 +99,7 @@ There are three possible outputs.
 
 ### Exercise 4
 
-Prompt the user to enter three integers. How are the integers ordered?
+Prompt the user to enter three numbers. How are the numbers ordered?
 
 Your code needs to support all numbers in the range [`Number.MIN_SAFE_INTEGER`, `Number.MAX_SAFE_INTEGER`]. Numbers outside of this range and non-numeric values are invalid.
 
@@ -154,11 +154,11 @@ There are two possible outputs.
 * `Invalid.`
 
 The grading policy is defined as follows.
-* `90` to `100` constitutes an `A`.
-* `80` to `89` constitutes a `B`.
-* `70` to `79` constitutes a `C`.
-* `60` to `69` constitutes a `D`.
-* `0` to `59` constitutes an `F`.
+* [`90`, `100`] constitutes an `A`.
+* [`80`, `90`) constitutes a `B`.
+* [`70`, `80`) constitutes a `C`.
+* [`60`, `70`) constitutes a `D`.
+* [`0`, `60`) constitutes an `F`.
 
 ![Exercise 6 Output](https://github.com/ap-principles-ucvts/pset-3-skeleton/blob/master/images/grades.png)
 
@@ -281,6 +281,21 @@ There are four possible outputs.
 * Use `const` variables to represent the freezing and boiling points of water for each temperature scale.
 * Your prompt and message must be grammatically correct and match mine **exactly**.
 
+## Deliverables
+
+You can run all of your problem set files in a single shot using the following command. Make sure you're in your `src` directory when you do so.
+```
+node change.js; node sign.js; node parity.js; node sequence.js; node gpa.js; node grades.js; node years.js; node cards.js; node months.js; node temperature.js
+```
+
+Pay close attention to this output because your code will be graded against it. There is exactly one line break at the beginning and end of the output. THere are exactly two line breaks between exercises.
+
+When you run the chained command and enter the same values, your output should match mine exactly.
+
+<span>
+  <img src="https://github.com/ap-principles-ucvts/pset-3-skeleton/blob/master/images/deliverable-1.png" alt="Problem Set 3 Output" width="49.75%"/> <img src="https://github.com/ap-principles-ucvts/pset-3-skeleton/blob/master/images/deliverable-2.png" alt="Problem Set 3 Output" width="49.75%"/>
+</span>
+
 ## Deadline
 
 Please read very carefully. Historically, most students lose points on problem sets for simply failing to read the instructions and requirements.
@@ -293,7 +308,7 @@ If you submit your problem set at midnight (i.e., November 7, 2019, at 12:00am),
 
 * Your code **must** compile. Code that fails to meet this minimum requirement will not be accepted.
 * There must be **at least** 10 unique commits to your repository.
-* Your code must meet each requirement outlined in the Exercises and Deliverables sections.
+* Your code must meet each requirement outlined in the *Exercises* and *Deliverables* sections.
 * Your code must adhere to the course style guidelines.
 
 Happy coding!
