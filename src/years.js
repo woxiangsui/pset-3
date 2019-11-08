@@ -1,6 +1,6 @@
 const readlineSync = require("readline-sync");
 
-const year = readlineSync.question("\nEnter a year: ");
+const year = readlineSync.question("\n\nEnter a year: ");
 
 const MIN = 0 ;
 const MAX = Number.MAX_SAFE_INTEGER ;

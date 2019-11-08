@@ -1,6 +1,6 @@
 const readlineSync = require("readline-sync");
 
-const temp = readlineSync.question("\nEnter a temperature: ");
+const temp = readlineSync.question("\n\nEnter a temperature: ");
 const scale = readlineSync.question("Enter a scale: ");
 
 const MAX = Number.MAX_SAFE_INTEGER;
